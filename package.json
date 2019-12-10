@@ -1,0 +1,19 @@
+{
+  "name": "vk-airsoft-winner-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "watch": "nodemon --watch './' --ignore 'src/**/*.spec.ts' --exec 'ts-node' ./index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^7.0.0",
+    "play-sound": "^1.1.3",
+    "ts-node": "^8.2.0",
+    "typescript": "^3.5.1"
+  }
+}
